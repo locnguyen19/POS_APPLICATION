@@ -54,7 +54,7 @@ function Homepage() {
             onClick={() => setSelectedCategoty(category.name)}
             className={`d-flex category ${selectedCategory === category.name && 'selected-category'}`}>
             <h4>{category.name}</h4>
-            <img src={category.imageURL} height='80' width='80' />
+            <img src={category.imageURL} height='60' width='80' />
           </div>
         })}
       </div>
